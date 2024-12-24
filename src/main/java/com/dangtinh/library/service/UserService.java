@@ -1,7 +1,7 @@
-package com.haianh123.library.service;
+package com.dangtinh.library.service;
 
-import com.haianh123.library.dto.request.UserCreateRequest;
-import com.haianh123.library.dto.response.UserResponse;
+import com.dangtinh.library.dto.request.UserCreateRequest;
+import com.dangtinh.library.dto.response.UserResponse;
 import jakarta.mail.MessagingException;
 
 public interface UserService {

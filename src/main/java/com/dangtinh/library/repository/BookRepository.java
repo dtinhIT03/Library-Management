@@ -1,6 +1,6 @@
-package com.haianh123.library.repository;
+package com.dangtinh.library.repository;
 
-import com.haianh123.library.entity.Book;
+import com.dangtinh.library.entity.Book;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

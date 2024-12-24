@@ -1,4 +1,4 @@
-package com.haianh123.library.utils;
+package com.dangtinh.library.utils;
 
 public class AppConstants {
     public static final String DEFAULT_PAGE_NUMBER = "0";

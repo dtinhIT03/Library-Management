@@ -1,8 +1,8 @@
-package com.haianh123.library.service.impl;
+package com.dangtinh.library.service.impl;
 
-import com.haianh123.library.dto.response.FavoriteBookResponse;
-import com.haianh123.library.repository.FavoriteBooksRepository;
-import com.haianh123.library.service.FavoriteBooksService;
+import com.dangtinh.library.repository.FavoriteBooksRepository;
+import com.dangtinh.library.service.FavoriteBooksService;
+import com.dangtinh.library.dto.response.FavoriteBookResponse;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;

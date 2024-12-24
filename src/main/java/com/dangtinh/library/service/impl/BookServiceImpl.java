@@ -1,17 +1,17 @@
-package com.haianh123.library.service.impl;
+package com.dangtinh.library.service.impl;
 
-import com.haianh123.library.dto.request.BookRequest;
-import com.haianh123.library.dto.response.BookResponse;
-import com.haianh123.library.dto.response.BooksResponse;
-import com.haianh123.library.entity.Book;
-import com.haianh123.library.exception.AppException;
-import com.haianh123.library.exception.ErrorCode;
-import com.haianh123.library.mapper.BookMapper;
-import com.haianh123.library.repository.AuthorRepository;
-import com.haianh123.library.repository.BookRepository;
-import com.haianh123.library.repository.CategoryRepository;
-import com.haianh123.library.repository.PublisherRepository;
-import com.haianh123.library.service.BookService;
+import com.dangtinh.library.dto.request.BookRequest;
+import com.dangtinh.library.dto.response.BookResponse;
+import com.dangtinh.library.dto.response.BooksResponse;
+import com.dangtinh.library.entity.Book;
+import com.dangtinh.library.exception.AppException;
+import com.dangtinh.library.exception.ErrorCode;
+import com.dangtinh.library.mapper.BookMapper;
+import com.dangtinh.library.repository.AuthorRepository;
+import com.dangtinh.library.repository.BookRepository;
+import com.dangtinh.library.repository.CategoryRepository;
+import com.dangtinh.library.repository.PublisherRepository;
+import com.dangtinh.library.service.BookService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
@@ -22,7 +22,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

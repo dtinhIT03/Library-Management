@@ -1,8 +1,8 @@
-package com.haianh123.library.mapper;
+package com.dangtinh.library.mapper;
 
-import com.haianh123.library.dto.request.CategoryCreateRequest;
-import com.haianh123.library.dto.response.CategoryResponse;
-import com.haianh123.library.entity.Category;
+import com.dangtinh.library.dto.request.CategoryCreateRequest;
+import com.dangtinh.library.dto.response.CategoryResponse;
+import com.dangtinh.library.entity.Category;
 import org.mapstruct.Mapper;
 import org.springframework.stereotype.Component;
 

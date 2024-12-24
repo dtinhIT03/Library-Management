@@ -1,10 +1,8 @@
-package com.haianh123.library.service;
+package com.dangtinh.library.service;
 
-import com.haianh123.library.dto.request.CounponCodeRequest;
-import com.haianh123.library.dto.response.CounponCodesResponse;
-import com.haianh123.library.dto.response.CouponCodeResponse;
-import com.haianh123.library.entity.CouponCode;
-import org.springframework.data.domain.Page;
+import com.dangtinh.library.dto.request.CounponCodeRequest;
+import com.dangtinh.library.dto.response.CounponCodesResponse;
+import com.dangtinh.library.dto.response.CouponCodeResponse;
 
 public interface CouponCodeService {
     CouponCodeResponse getCounponCodeById(int id);

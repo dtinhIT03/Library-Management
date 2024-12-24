@@ -1,6 +1,6 @@
-package com.haianh123.library.repository;
+package com.dangtinh.library.repository;
 
-import com.haianh123.library.entity.User;
+import com.dangtinh.library.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,13 +1,12 @@
-package com.haianh123.library.repository;
+package com.dangtinh.library.repository;
 
-import com.haianh123.library.dto.response.FavoriteBookResponse;
-import com.haianh123.library.entity.FavoriteBooks;
+import com.dangtinh.library.entity.FavoriteBooks;
+import com.dangtinh.library.dto.response.FavoriteBookResponse;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Objects;
 
 @Repository
 public interface FavoriteBooksRepository extends JpaRepository<FavoriteBooks, Integer> {

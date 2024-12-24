@@ -1,4 +1,4 @@
-package com.haianh123.library.dto.response;
+package com.dangtinh.library.dto.response;
 
 import lombok.Getter;
 import lombok.Setter;

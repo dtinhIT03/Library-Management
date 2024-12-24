@@ -1,13 +1,9 @@
-package com.haianh123.library.dto.response;
+package com.dangtinh.library.dto.response;
 
-import com.haianh123.library.entity.Image;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.sql.Timestamp;
-import java.util.List;
 
 @Getter
 @Setter

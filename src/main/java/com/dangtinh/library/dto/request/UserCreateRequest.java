@@ -1,4 +1,4 @@
-package com.haianh123.library.dto.request;
+package com.dangtinh.library.dto.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;

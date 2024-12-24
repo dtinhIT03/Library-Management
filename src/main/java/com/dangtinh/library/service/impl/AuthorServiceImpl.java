@@ -1,12 +1,12 @@
-package com.haianh123.library.service.impl;
+package com.dangtinh.library.service.impl;
 
-import com.haianh123.library.dto.response.AuthorResponse;
-import com.haianh123.library.entity.Author;
-import com.haianh123.library.exception.AppException;
-import com.haianh123.library.exception.ErrorCode;
-import com.haianh123.library.mapper.AuthorMapper;
-import com.haianh123.library.repository.AuthorRepository;
-import com.haianh123.library.service.AuthorService;
+import com.dangtinh.library.dto.response.AuthorResponse;
+import com.dangtinh.library.entity.Author;
+import com.dangtinh.library.exception.AppException;
+import com.dangtinh.library.exception.ErrorCode;
+import com.dangtinh.library.mapper.AuthorMapper;
+import com.dangtinh.library.repository.AuthorRepository;
+import com.dangtinh.library.service.AuthorService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;

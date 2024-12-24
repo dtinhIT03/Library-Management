@@ -1,7 +1,7 @@
-package com.haianh123.library.mapper;
+package com.dangtinh.library.mapper;
 
-import com.haianh123.library.dto.response.AuthorResponse;
-import com.haianh123.library.entity.Author;
+import com.dangtinh.library.dto.response.AuthorResponse;
+import com.dangtinh.library.entity.Author;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.stereotype.Component;

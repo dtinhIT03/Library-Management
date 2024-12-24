@@ -1,16 +1,14 @@
-package com.haianh123.library.controller;
+package com.dangtinh.library.controller;
 
-import com.haianh123.library.dto.request.UserCreateRequest;
-import com.haianh123.library.dto.response.ApiResponse;
-import com.haianh123.library.dto.response.FavoriteBookResponse;
-import com.haianh123.library.dto.response.UserResponse;
-import com.haianh123.library.entity.FavoriteBooks;
-import com.haianh123.library.service.FavoriteBooksService;
-import com.haianh123.library.service.UserService;
+import com.dangtinh.library.service.FavoriteBooksService;
+import com.dangtinh.library.dto.request.UserCreateRequest;
+import com.dangtinh.library.dto.response.ApiResponse;
+import com.dangtinh.library.dto.response.FavoriteBookResponse;
+import com.dangtinh.library.dto.response.UserResponse;
+import com.dangtinh.library.service.UserService;
 import jakarta.mail.MessagingException;
 import jakarta.validation.Valid;
 import lombok.AccessLevel;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.springframework.web.bind.annotation.*;

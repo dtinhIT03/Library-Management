@@ -1,4 +1,4 @@
-package com.haianh123.library.exception;
+package com.dangtinh.library.exception;
 
 
 import lombok.Getter;

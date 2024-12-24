@@ -1,4 +1,4 @@
-package com.haianh123.library.entity;
+package com.dangtinh.library.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

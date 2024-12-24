@@ -1,6 +1,6 @@
-package com.haianh123.library.service.impl;
+package com.dangtinh.library.service.impl;
 
-import com.haianh123.library.service.MyEmailService;
+import com.dangtinh.library.service.MyEmailService;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,6 @@
-package com.haianh123.library.service;
+package com.dangtinh.library.service;
 
-import com.haianh123.library.dto.response.AuthorResponse;
-import com.haianh123.library.entity.Author;
+import com.dangtinh.library.dto.response.AuthorResponse;
 
 import java.util.List;
 

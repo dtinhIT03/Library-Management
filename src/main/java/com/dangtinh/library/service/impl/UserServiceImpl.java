@@ -1,15 +1,15 @@
-package com.haianh123.library.service.impl;
+package com.dangtinh.library.service.impl;
 
-import com.haianh123.library.dto.request.UserCreateRequest;
-import com.haianh123.library.dto.response.UserResponse;
-import com.haianh123.library.entity.User;
-import com.haianh123.library.exception.AppException;
-import com.haianh123.library.exception.ErrorCode;
-import com.haianh123.library.mapper.UserMapper;
-import com.haianh123.library.repository.UserRepository;
-import com.haianh123.library.service.MyEmailService;
-import com.haianh123.library.service.UserService;
-import com.haianh123.library.utils.Role;
+import com.dangtinh.library.dto.request.UserCreateRequest;
+import com.dangtinh.library.entity.User;
+import com.dangtinh.library.exception.AppException;
+import com.dangtinh.library.exception.ErrorCode;
+import com.dangtinh.library.mapper.UserMapper;
+import com.dangtinh.library.repository.UserRepository;
+import com.dangtinh.library.service.MyEmailService;
+import com.dangtinh.library.service.UserService;
+import com.dangtinh.library.utils.Role;
+import com.dangtinh.library.dto.response.UserResponse;
 import jakarta.mail.MessagingException;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;

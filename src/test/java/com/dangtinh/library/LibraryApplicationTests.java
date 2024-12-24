@@ -1,9 +1,7 @@
-package com.haianh123.library;
+package com.dangtinh.library;
 
-import com.haianh123.library.dto.response.AuthorResponse;
-import com.haianh123.library.dto.response.BooksResponse;
-import com.haianh123.library.service.AuthorService;
-import com.haianh123.library.service.BookService;
+import com.dangtinh.library.service.AuthorService;
+import com.dangtinh.library.dto.response.AuthorResponse;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

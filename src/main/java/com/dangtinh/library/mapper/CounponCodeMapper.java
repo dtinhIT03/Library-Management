@@ -1,8 +1,7 @@
-package com.haianh123.library.mapper;
+package com.dangtinh.library.mapper;
 
-import com.haianh123.library.dto.response.CouponCodeResponse;
-import com.haianh123.library.entity.Author;
-import com.haianh123.library.entity.CouponCode;
+import com.dangtinh.library.dto.response.CouponCodeResponse;
+import com.dangtinh.library.entity.CouponCode;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.springframework.stereotype.Component;

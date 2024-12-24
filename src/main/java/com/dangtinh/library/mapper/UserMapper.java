@@ -1,8 +1,8 @@
-package com.haianh123.library.mapper;
+package com.dangtinh.library.mapper;
 
-import com.haianh123.library.dto.request.UserCreateRequest;
-import com.haianh123.library.dto.response.UserResponse;
-import com.haianh123.library.entity.User;
+import com.dangtinh.library.dto.request.UserCreateRequest;
+import com.dangtinh.library.dto.response.UserResponse;
+import com.dangtinh.library.entity.User;
 import org.mapstruct.Mapper;
 import org.springframework.stereotype.Component;
 
